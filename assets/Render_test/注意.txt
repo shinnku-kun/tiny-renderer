@@ -1,0 +1,5 @@
+VS中创建.exe空项目
+在属性的C/C++的语言中开启OpenMp支持，
+在属性的C/C++的常规的附加包含目录中附加包含Eigen数学库文件目录，
+在属性的C/C++的预处理器的预处理器定义中，加上 NOMINMAX，去掉Windows自带的max和min
+构建完成后需要把assets文件夹放到.exe同级目录下,

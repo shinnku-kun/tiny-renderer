@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\实际渲染层">
+      <UniqueIdentifier>{38910fbc-634f-42f3-8d60-578b5c9d9cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\抽象渲染层">
+      <UniqueIdentifier>{e9c6c51c-0755-4bea-8e2e-046ea706e982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\消息处理层">
+      <UniqueIdentifier>{a8e415ff-b352-4bb5-b10c-e711d648f0e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\实际渲染层">
+      <UniqueIdentifier>{a150c4f2-0483-4a3e-9794-8b0a971022f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\抽象渲染层">
+      <UniqueIdentifier>{45ed03a9-b009-402e-9ee7-3b3cc07b59c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\消息处理层">
+      <UniqueIdentifier>{762b147f-4083-4182-ac9e-757091ea6e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\场景管理层">
+      <UniqueIdentifier>{c86e9f71-eb0b-4ca5-a913-abba1521f384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\资源管理层">
+      <UniqueIdentifier>{05a1b831-52e5-4f8b-936b-aaf50fdec7e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\资源获取层">
+      <UniqueIdentifier>{d5300325-acc9-4206-a70e-993d008e6514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\资源获取层\模型读取层">
+      <UniqueIdentifier>{987bbcb3-c231-44e5-9efd-e8a6879053d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\资源获取层\贴图读取层">
+      <UniqueIdentifier>{d1a66c18-4cca-4620-94aa-40035b7dd096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\场景管理层">
+      <UniqueIdentifier>{1c677aec-56cc-4b7d-b19f-a900875be08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源管理层">
+      <UniqueIdentifier>{e9896730-f52e-4774-9cad-969d131cb8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源获取层">
+      <UniqueIdentifier>{f61248db-25ee-46d0-a1b5-9088f8324cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源获取层\模型读取层">
+      <UniqueIdentifier>{71843801-393c-419a-b6bc-1fb50e6e2493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\资源获取层\贴图读取层">
+      <UniqueIdentifier>{a4cf6e6d-f3e2-4fb5-81d8-cb7d51bb6177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\主窗口层%28分平台分文件%29">
+      <UniqueIdentifier>{cf4a80a4-d651-436a-87fb-d9454f4830d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\主窗口层%28分平台分文件%29">
+      <UniqueIdentifier>{4532bb93-f916-4c84-83dd-f8c3b6a3ef57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelLoad.h">
+      <Filter>头文件\资源获取层\模型读取层</Filter>
+    </ClInclude>
+    <ClInclude Include="TexLoad.h">
+      <Filter>头文件\资源获取层\贴图读取层</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJModelLoad.h">
+      <Filter>头文件\资源获取层\模型读取层</Filter>
+    </ClInclude>
+    <ClInclude Include="TGATexLoad.h">
+      <Filter>头文件\资源获取层\贴图读取层</Filter>
+    </ClInclude>
+    <ClInclude Include="GetExePath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDataStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDataStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\资源获取层\贴图读取层</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRender.h">
+      <Filter>头文件\抽象渲染层</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageProcessing.h">
+      <Filter>头文件\消息处理层</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManagement.h">
+      <Filter>头文件\场景管理层</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManagement.h">
+      <Filter>头文件\资源管理层</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsPlatform.h">
+      <Filter>头文件\主窗口层%28分平台分文件%29</Filter>
+    </ClInclude>
+    <ClInclude Include="AcutalRender_CPU.h">
+      <Filter>头文件\实际渲染层</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MessageProcessing.cpp">
+      <Filter>源文件\消息处理层</Filter>
+    </ClCompile>
+    <ClCompile Include="TexLoad.cpp">
+      <Filter>源文件\资源获取层\贴图读取层</Filter>
+    </ClCompile>
+    <ClCompile Include="TGATexLoad.cpp">
+      <Filter>源文件\资源获取层\贴图读取层</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoad.cpp">
+      <Filter>源文件\资源获取层\模型读取层</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJModelLoad.cpp">
+      <Filter>源文件\资源获取层\模型读取层</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractRender.cpp">
+      <Filter>源文件\抽象渲染层</Filter>
+    </ClCompile>
+    <ClCompile Include="AcutalRender_CPU.cpp">
+      <Filter>源文件\实际渲染层</Filter>
+    </ClCompile>
+    <ClCompile Include="GetExePath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManagement.cpp">
+      <Filter>源文件\场景管理层</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManagement.cpp">
+      <Filter>源文件\资源管理层</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsPlatform.cpp">
+      <Filter>源文件\主窗口层%28分平台分文件%29</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件\资源获取层\贴图读取层</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
