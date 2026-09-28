@@ -4,12 +4,12 @@
 
 此模型由个人制作，因头部模型未达个人标准线，所以不进行展示(看起来会有些怪，见谅)
 
-<img width="1484" height="1200" alt="model1" src="https://github.com/shinnku-kun/tiny-renderer/blob/main/assets/model1.gif" />
+<div align="center"><img width="400" height="300" alt="model1" src="https://github.com/shinnku-kun/tiny-renderer/blob/main/assets/model1.gif" /></div>
 
 
+以下模型和贴图均由网络下载而来，若有侵权请联系
 
-此模型和贴图均由网络下载而来，若有侵权请联系
-
-<img width="1484" height="1200" alt="model1" src="https://github.com/shinnku-kun/tiny-renderer/blob/main/assets/model2.gif" />
-
+<div align="center"><img width="400" height="300" alt="model1" src="https://github.com/shinnku-kun/tiny-renderer/blob/main/assets/model2.gif" />
+<img width="400" height="300" alt="model1" src="https://github.com/shinnku-kun/tiny-renderer/blob/main/assets/model2_1.gif" />
+</div>
 
